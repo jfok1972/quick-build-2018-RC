@@ -1,0 +1,297 @@
+/* ie中不允许在inputtext中最后出现X按钮。由系统自动产生 */
+input::-ms-clear {
+	display: none !important;
+}
+
+.x-form-dirty .x-form-item-label-inner {
+	background-color: #f5e9da;
+}
+
+.displaynone {
+	display: none !important;
+}
+
+#loading {
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	margin-left: -45px;
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+	border: 1px solid #ccc;
+	color: black;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: 300;
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #444;
+	font: bold 13px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	height: auto;
+}
+
+#loading .loading-indicator img {
+	margin-right: 8px;
+	float: left;
+	vertical-align: top;
+}
+
+#appLoadingIndicator {
+	position: absolute;
+	top: 80%;
+	margin-top: -15px;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	-webkit-animation-name: appLoadingIndicator;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: linear;
+}
+
+#appLoadingIndicator>* {
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: 30px;
+	-webkit-border-radius: 15px;
+	margin: 0 5px;
+	width: 30px;
+	opacity: 0.8;
+}
+
+/* 菜单条前面的，转换菜单方式的二个按钮的css */
+.menuchangeup {
+	opacity: .7;
+	display: block !important;
+	cursor: pointer;
+	/* 	margin-bottom: 4px;
+ */
+}
+
+.menuchangedown {
+	opacity: .7;
+	display: block !important;
+	cursor: pointer;
+	margin-top: -6px !important;
+}
+
+.menuchange:hover {
+	opacity: 1;
+}
+
+/* 显示或隐藏顶部和底部按钮的css */
+.regionchange {
+	opacity: .5;
+	display: block !important;
+	cursor: pointer;
+	color: blue !important;
+}
+
+.regionchange:hover {
+	opacity: 1;
+}
+
+.actioncolumniconmarginleft {
+	margin-left: 2px;
+}
+
+.icon16_16 {
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.icon18_18 {
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.icon256_256 {
+	width: 256px;
+	height: 256px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.aligncenter {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.actionblue {
+	color: #426ab3 !important;
+}
+
+
+.actionyellow {
+	color: #fdb933 !important;
+}
+
+/* 审核工作流用到的一些css */
+.approveaction {
+	color: #f05b72 !important;
+}
+
+.approveyes {
+	background-image: url('../../resources/images/approve/approve_ok.png');
+	background-repeat: no-repeat;
+}
+
+.approveno {
+	background-image:
+		url('../../resources/images/approve/approve_cancel.png');
+	background-repeat: no-repeat;
+}
+
+.approveimage {
+	background-image:
+		url('../../resources/images/approve/approve_image.png');
+	background-repeat: no-repeat;
+}
+
+.approveexec {
+	background-image: url('../../resources/images/approve/approve_exec.png');
+	background-repeat: no-repeat;
+}
+
+.approvepause {
+	background-image:
+		url('../../resources/images/approve/approve_pause.png');
+	background-repeat: no-repeat;
+}
+
+.approvestart {
+	background-image:
+		url('../../resources/images/approve/approve_start.png');
+	background-repeat: no-repeat;
+}
+
+.okbutton .x-btn-inner {
+	color: blue !important;
+}
+
+.okbutton .x-btn-icon-el {
+	color: blue !important;
+}
+
+.cancelbutton .x-btn-inner {
+	color: red !important;
+}
+
+.cancelbutton .x-btn-icon-el {
+	color: red !important;
+}
+/* 各种字段名字的颜色 */
+.manytomanycolor {
+	color: #726930;
+/* 	font-style: italic;
+ */}
+
+.datecolor {
+	color: #a40;
+}
+
+.numbercolor {
+	color: #00C;
+}
+
+.intcolor {
+	color: #00C;
+}
+
+.booleancolor {
+	color: #005831;
+}
+
+.hascondition {
+	color: #1d953f;
+}
+
+.onttomanydetailtd{
+	word-break: keep-all;
+	white-space: nowrap;
+}
+
+.gridcelltooltip {
+	margin: 5px 5px 5px -8px;
+}
+
+/* grid 中的模块附件的column的样式  */
+.attachmentColumnNumber {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+	color: green;
+}
+
+/* grid 中manytoone字段的显示	*/
+.gridNameField {
+	cursor: pointer;
+	color: #11264f;
+	text-decoration: underline;
+}
+
+.gridNameField a:HOVER {
+	color: #33f;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* 导航Tree，如果有记录数的话，加在text后面，用下面的样式 */
+.navigateTreeItem {
+	color: blue;
+	font-size: 80%;
+}
+
+.navigateDetailIcon {
+	color: gray;
+	cursor: pointer;
+	font-size: 80%;
+}
+
+/* 界面方案的选择css */
+.theme-triton-small {
+	background: #238EBD;
+}
+
+.theme-neptune {
+	background: #167ECD;
+}
+
+.theme-classic {
+	background: #abc7ec;
+}
+
+.theme-crisp {
+	background: #F5F5F5;
+}
+
+.theme-gray {
+	background: #a2a2a2;
+}
+
+.theme-steelblue {
+	background: #244977;
+}
+
+.theme-triton {
+	background: #5FA2DD;
+}
+
+.theme-aria {
+	background: #2c3044;
+}
+
+.theme-select-over {
+	border-width: 1px;
+	border-style: outset;
+}

@@ -1,0 +1,26 @@
+
+1、导入时会新建数据库quickbuild,如果你已有此名称的数据库，请注意更改数据库名称。
+
+2、请使用root用户运行 quickbuild-mysql.sql中的初始化语句。
+   初始化数据由 mysqldump 导出，我已测试可以正常导入，如果有问题导不进去，请自行查找问题解决，不要来问我，因为我也不知道更多。
+
+3、如果运行中有错误，请用以下语句提升root的表操作权限(大多数都是这个问题)。
+	grant all privileges on *.* to monitor@"%" identified by ".";
+	grant all privileges on *.* to root@"%" identified by ".";
+	flush privileges;
+	-- 不同版本的mysql可能不一样。请查询相关mysql的设置，这里有问题不要问我，因为我也不会其他的方法
+
+4、mysql中 group_concat 函数长度返回值为1024字节，很不够用。用下面的方法增大到102400
+	在MySQL Workbench中的Server Status中查看my.ini或my.cnf的位置
+	在 [mysqld]下面加上配置项：
+	group_concat_max_len = 102400
+
+5、默认所有的附件都是存放在数据库中，最大可以存放4M字节(最大可以上传2M的文件)。
+	如果需要改变blob的数据大小为16M，则应设置下面为32M
+	(经过测试hibernate在二进制数据byte保存的时候，字节数大了一倍，因此需要设置blob的最大值也要大一倍)
+	(如果你研究过这些内容，请告知我是否这里有问题)
+	在 [mysqld]下面加上配置项：
+	max_allowed_packet = 32M 
+
+	
+	

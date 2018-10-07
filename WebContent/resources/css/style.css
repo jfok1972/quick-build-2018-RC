@@ -1,0 +1,60 @@
+@import "animated.css";
+
+/* Icons */
+.ux-notification-icon-smile {
+	background-image: url('../images/system/smile.png');
+}
+
+.ux-notification-icon-warn {
+	background-image: url('../images/system/warn.png');
+}
+
+.ux-notification-icon-error {
+	background-image: url('../images/system/error.png');
+}
+
+.delete-focus-bg {
+    background: none;
+    border:0px;
+}
+
+.header-right-profile-image {
+    border-radius: 20px;
+}
+
+.dvp-tree-node-disabled .x-grid-cell {
+	-moz-opacity: 0.5;
+	opacity: .5;
+	color: gray;
+	background-color: #f6f5ec;
+	filter: alpha(opacity = 50);
+}
+
+.ux-cell-color-gray {
+	font-style: italic;
+	text-decoration: line-through;
+	color: gray;
+}
+
+
+.x-action-col-icon{
+	color: #919191;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%; 
+	background-color: #F5680A;
+	text-align:center;
+	margin:0 auto;
+}
+
+.login-textfield-triggers {
+	font-size:30px;
+	line-height:50px;
+	background:none;
+	width:40px;
+	cursor:default;
+	color:rgb(209, 209, 209);
+}

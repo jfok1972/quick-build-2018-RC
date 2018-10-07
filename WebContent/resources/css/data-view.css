@@ -1,0 +1,153 @@
+/* 附件浏览 */
+.images-view {
+	background: #f6f5ec;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+
+.images-view .thumb {
+	padding: 3px;
+	padding-bottom: 0;
+	height: 128px;
+	width: 128px;
+	display: table;
+	text-align: center;
+}
+
+.images-view .thumb .imagecontainer {
+	height: 128px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.images-view .thumb-wrap {
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+}
+
+.images-view .thumb-wrap span {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 128px; /*for ie to ensure that the text is centered */
+}
+
+.images-view .x-item-over {
+	border: 1px solid #dddddd;
+	background: #efefef repeat-x left top;
+	padding: 4px;
+}
+
+.images-view .x-item-selected {
+	background: #eff5fb no-repeat right bottom;
+	border: 1px solid #99bbe8;
+	padding: 4px;
+}
+
+.images-view .x-item-selected .thumb {
+	background: transparent;
+}
+
+.images-view .loading-indicator {
+	font-size: 11px;
+	background-image: url('resources/images/bg/large-loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+	margin: 10px;
+}
+
+/* view list */
+.images-list {
+	padding : 3px;
+	background: #f6f5ec;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+
+.images-list .thumb {
+	padding: 2px;
+	height: 26px;
+	width: 100%;
+	display: inline;
+	text-align: left;
+}
+
+.images-list .thumb .imagecontainer img {
+	position: relative;
+	top: 2px;
+	display: table;
+	vertical-align: middle;
+	width: 16px;
+}
+
+.images-list .thumb .imagecontainer {
+	display: table-cell;
+	height: 28px;
+	vertical-align: middle;
+}
+
+.images-list .thumb-wrap {
+	border: 1px solid #f6f5ec;
+	padding: 0px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.images-list .thumb-wrap span {
+	display: inline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%; /*for ie to ensure that the text is centered */
+}
+
+.images-list .thumb-wrap .title {
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	padding-left: 2px;
+}
+
+.images-list .x-item-over {
+	border: 1px solid #dddddd;
+	background: #efefef repeat-x left top;
+}
+
+.images-list .x-item-selected {
+	background: #eff5fb no-repeat right bottom;
+	border: 1px solid #99bbe8;
+}
+
+.images-list .x-item-selected .thumb {
+	background: transparent;
+}
+
+.images-list .loading-indicator {
+	font-size: 11px;
+	background-image: url('resources/images/bg/large-loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+	margin: 10px;
+}
+
+/*  */
+.x-view-selector {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	border: 1px dotted;
+	opacity: .5;
+	-moz-opacity: .5;
+	filter: alpha(opacity =   50);
+	zoom: 1;
+	background-color: #c3daf9;
+	border-color: #3399bb;
+}

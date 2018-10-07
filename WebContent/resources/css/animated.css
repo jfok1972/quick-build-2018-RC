@@ -1,0 +1,69 @@
+.icon-animated-bell {
+  display: inline-block;
+  -moz-animation: ringing 2.0s infinite ease 0.0s;
+  -webkit-animation: ringing 2.0s infinite ease 0.0s;
+  -o-animation: ringing 2.0s infinite ease 0.0s;
+  -ms-animation: ringing 2.0s infinite ease 0.0s;
+  animation: ringing 2.0s infinite ease 0.0s;
+  -moz-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+@-moz-keyframes ringing {
+  0% {-moz-transform: rotate(0deg);}
+  8% {-moz-transform: rotate(15deg);}
+  16% {-moz-transform: rotate(-18deg);}
+  24% {-moz-transform: rotate(18deg);}
+  32% {-moz-transform: rotate(-22deg);}
+  40% {-moz-transform: rotate(22deg);}
+  48% {-moz-transform: rotate(-18deg);}
+  56% {-moz-transform: rotate(18deg);}
+  64% {-moz-transform: rotate(-12deg);}
+  72% {-moz-transform: rotate(12deg);}
+  80% {-moz-transform: rotate(0deg);}
+}
+
+@-webkit-keyframes ringing {
+  0% {-webkit-transform: rotate(0deg);}
+  8% {-webkit-transform: rotate(15deg);}
+  16% {-webkit-transform: rotate(-18deg);}
+  24% {-webkit-transform: rotate(18deg);}
+  32% {-webkit-transform: rotate(-22deg);}
+  40% {-webkit-transform: rotate(22deg);}
+  48% {-webkit-transform: rotate(-18deg);}
+  56% {-webkit-transform: rotate(18deg);}
+  64% {-webkit-transform: rotate(-12deg);}
+  72% {-webkit-transform: rotate(12deg);}
+  80% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes ringing {
+  0% {-ms-transform: rotate(0deg);}
+  8% {-ms-transform: rotate(15deg);}
+  16% {-ms-transform: rotate(-18deg);}
+  24% {-ms-transform: rotate(18deg);}
+  32% {-ms-transform: rotate(-22deg);}
+  40% {-ms-transform: rotate(22deg);}
+  48% {-ms-transform: rotate(-18deg);}
+  56% {-ms-transform: rotate(18deg);}
+  64% {-ms-transform: rotate(-12deg);}
+  72% {-ms-transform: rotate(12deg);}
+  80% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes ringing {
+  0% {transform: rotate(0deg);}
+  8% {transform: rotate(15deg);}
+  16% {transform: rotate(-18deg);}
+  24% {transform: rotate(18deg);}
+  32% {transform: rotate(-22deg);}
+  40% {transform: rotate(22deg);}
+  48% {transform: rotate(-18deg);}
+  56% {transform: rotate(18deg);}
+  64% {transform: rotate(-12deg);}
+  72% {transform: rotate(12deg);}
+  80% {transform: rotate(0deg);}
+}

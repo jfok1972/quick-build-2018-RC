@@ -1,0 +1,48 @@
+.iconcls-view .iconclsSelector {
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+.iconcls-view .x-item-over {
+	border: 1px solid #dddddd;
+	background: #efefef repeat-x left top;
+	padding: 4px;
+}
+
+.iconcls-view .x-item-selected {
+	background: #eff5fb no-repeat right bottom;
+	border: 1px solid #99bbe8;
+	padding: 4px;
+}
+
+.x-iconclspicker-field .x-form-item-body {
+    position: relative;
+}
+.x-iconclspicker-field input {
+    padding-left: 26px;
+}
+
+.x-iconclspicker-field-swatch-inner {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	color: #919191;
+}
+
+.x-iconclspicker-field-swatch {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+	bottom: 0px;
+	margin: auto;
+}

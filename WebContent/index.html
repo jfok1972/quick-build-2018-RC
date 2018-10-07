@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" manifest="">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="login/systemfavicon.do" type="image/x-icon" rel="shortcut icon">
+	<title></title>
+	<style>
+		#loading {
+			position: absolute;
+			left: 45%;
+			top: 40%;
+			margin-left: -45px;
+			padding: 2px;
+			z-index: 20001;
+			height: auto;
+			border: 1px solid #ccc;
+			color: black;
+			font-size: 13px;
+			line-height: 17px;
+			font-weight: 300;
+			font-family: helvetica, arial, verdana, sans-serif;
+		}
+
+		#loading .loading-indicator {
+			background: white;
+			color: #444;
+			font: bold 13px tahoma, arial, helvetica;
+			padding: 10px;
+			margin: 0;
+			height: auto;
+		}
+
+		#loading .loading-indicator img {
+			margin-right: 8px;
+			float: left;
+			vertical-align: top;
+		}
+	</style>
+	<script type="text/javascript">
+		var Ext = Ext || {};
+		Ext.beforeLoad = function (tags) {
+			var theme = location.href.match(/theme=([\w-]+)/);
+			theme = (theme && theme[1]);
+			//http://localhost:8080/index.html?theme=triton
+			if (!theme) theme = getCookie('theme','triton-small');
+			console.log('加载系统主题方案:' + theme);
+			Ext.manifest = 'build/development/app/' + theme + "/" + theme + '.json';
+		};
+
+		function getCookie(name, defaultValue) {
+			var cookies = document.cookie.split('; ');
+			var i = cookies.length, cookie, value = null;
+			while (i--) {
+				cookie = cookies[i].split('=');
+				if (cookie[0] === name) {
+					value = unescape(cookie[1]);
+				}
+			}
+			return value || defaultValue;
+		};
+		
+	</script>
+</head>
+
+<body>
+	<div id="loading">
+		<div class="loading-indicator">
+			<img src="resources/images/system/large-loading.gif" width="32" height="32" /> 系统正在加载中，请稍候......
+			<br />
+			<span id="loading-msg">Loading...</span>
+		</div>
+	</div>
+	<a target="_blank" href="" id="__qq__"></a>
+</body>
+<script type="text/javascript">
+
+</script>
+<script id="microloader" data-app="a988d731-7b7f-4a13-9a75-85e785e4a107" type="text/javascript" src="bootstrap.js"></script>
+
+</html>

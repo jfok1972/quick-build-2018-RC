@@ -1,0 +1,120 @@
+/*系统色系*/
+.x-tree-elbow-end-plus {
+    color: var(--color);
+}
+
+.x-tree-icon-parent {
+    color:var(--color);
+}
+
+.x-panel-header-default-vertical {
+    background-color: var(--color);
+}
+
+.x-panel-default-outer-border-trl {
+    border-top-color: var(--color) !important;
+    border-right-color: var(--color) !important;
+    border-left-color: var(--color) !important;
+}
+.x-panel-default-outer-border-rbl {
+    border-right-color: var(--color) !important;
+    border-bottom-color: var(--color) !important;
+    border-left-color: var(--color) !important;
+}
+
+.x-panel-header-default {
+    background-color: var(--color);
+    border: 1px solid var(--color);
+}
+
+.x-panel-default {
+    border-color: var(--color);
+}
+
+.x-tab-bar-default {
+    background-color: var(--color);
+}
+.x-panel-header-default .x-tool-img {
+    background:none;
+}
+
+.x-grid-tree-node-expanded .x-tree-elbow-plus, .x-grid-tree-node-expanded .x-tree-elbow-end-plus {
+    color: var(--color);
+}
+
+.x-tree-elbow-plus, .x-tree-elbow-end-plus {
+    color: var(--color);
+}
+
+.x-tree-icon-parent-expanded {
+    color: var(--color);
+}
+
+.x-tree-icon-leaf {
+    color: var(--color);
+}
+
+.x-grid-item-focused .x-grid-cell-inner::before {
+    border: 1px solid var(--color);
+}
+
+.x-btn-default-small {
+	background-color: var(--color);
+	border-color: var(--color);
+}
+
+.x-window-header-default {
+	border:none;
+}
+
+.x-window-header-default-top {
+    background-color: var(--color);
+}
+
+.x-window-header-default .x-tool-img {
+    background-color: var(--color);
+}
+
+.x-form-trigger-wrap-default.x-form-trigger-wrap-focus {
+    border-color: var(--color);
+}
+
+.x-panel-body-default {
+    color: var(--color);
+}
+
+.x-btn-focus.x-btn-default-small{
+    background-color: var(--color);
+}
+
+.x-btn.x-btn-pressed.x-btn-default-small{
+	background-color: var(--color);
+}
+
+.x-body {
+    color: var(--color);
+}
+
+.x-window-default {
+   border:none;
+}
+
+.x-treelist-navigation .x-treelist-item-selected > .x-treelist-row::before {
+    background-color: var(--color);
+}
+
+.x-panel-header-default-framed-top{
+	background-color: var(--color);
+}
+
+.x-panel-default-framed {
+    border-color: var(--color);
+}
+
+.x-panel-header-default-framed .x-tool-img {
+    background-color: var(--color);
+}
+
+.x-panel-header-default-framed {
+    border: 2px solid var(--color);
+}
