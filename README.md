@@ -30,15 +30,15 @@
 
 ### 系统架构与开发资料
 
-> [系统下载安装及运行视频讲解](http://www.jhopesoft.com);
+[系统下载安装及运行视频讲解](http://www.jhopesoft.com);
 
-> [快速构建系统开发手册(PDF)](http://www.jhopesoft.com/)；
+[快速构建系统开发手册(PDF)](http://www.jhopesoft.com/)；
 
-> [快速开发系统extjs4版开发博客专栏](https://blog.csdn.net/column/details/jfok1972-design.html);
+[快速开发系统extjs4版开发博客专栏](https://blog.csdn.net/column/details/jfok1972-design.html);
 
-> [快速开发系统extjs5版开发博客专栏](https://blog.csdn.net/column/details/extjs5.html);
+[快速开发系统extjs5版开发博客专栏](https://blog.csdn.net/column/details/extjs5.html);
 
-> [快速开发系统extjs6版(当前版本)开发博客专栏](https://blog.csdn.net/column/details/cfcmms.html);
+[快速开发系统extjs6版(当前版本)开发博客专栏](https://blog.csdn.net/column/details/cfcmms.html);
 
 
 ### 系统基本功能、业务系统架构以及商业数据分析开发视频教程
