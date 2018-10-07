@@ -2,9 +2,11 @@
 
 快速构建系统(Quick Build System)最终测试版
 
->快速构建系统网址：<http://www.jhopesoft.com><br/>
->作者：蒋锋(QQ:78580822)<br/>
->QQ讨论群:386100815
+* 开发作者：蒋锋(QQ:78580822)
+* QQ讨论群:386100815
+* 特别感谢：刘明(木人)
+* 系统网址：<http://www.jhopesoft.com>
+* 演示地址：<http://www.jhopesoft.com:8080/quick-build>
 
 ### 您所要准备的仅是一个业务数据库，其他的已就位!
 * 模块和常规功能的前台配置、零代码的开发过程；<br/>
