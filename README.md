@@ -32,7 +32,7 @@
 
 ### 系统架构与开发资料
 
-[系统下载安装及运行视频讲解](http://www.jhopesoft.com);<br/>
+[系统的获得安装与运行视频讲解](https://pan.baidu.com/s/1NbQnU3oqyYXuPIeza_MCdQ);<br/>
 [快速构建系统开发手册(PDF)](http://www.jhopesoft.com/快速构建系统开发手册.pdf)；<br/>
 [快速开发系统extjs4版开发博客专栏](https://blog.csdn.net/column/details/jfok1972-design.html);<br/>
 [快速开发系统extjs5版开发博客专栏](https://blog.csdn.net/column/details/extjs5.html);<br/>
