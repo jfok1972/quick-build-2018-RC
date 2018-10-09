@@ -38,6 +38,8 @@
 [快速开发系统extjs5版开发博客专栏](https://blog.csdn.net/column/details/extjs5.html);<br/>
 [快速开发系统extjs6版(当前版本)开发博客专栏](https://blog.csdn.net/column/details/cfcmms.html);
 
+为了更直观的展示系统开发的速度，特录制了一个20分钟快速搭建某小型业务系统的商业数据分析(BI)的视频，建立数据分析并把查询结果显示在首页上。<br/>
+[20分钟快速塔建业务系统的商业数据分析(BI)视频教程](https://pan.baidu.com/s/1abcc3tLzxTvwJHIcv19Y5w)
 
 ### 系统基本功能、业务系统架构以及商业数据分析开发视频教程(不断更新中)
 
