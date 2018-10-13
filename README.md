@@ -45,7 +45,8 @@
 
 * [系统概述及主页面的说明](https://pan.baidu.com/s/1cjTlvmTRs92QYgEeSH_pjA)；
 * [系统所有菜单功能简介](https://pan.baidu.com/s/1wNqD4tgZlV-174MBxckS7A)；
-* 系统的界面及基本功能；
+* [系统模块界面及基本功能简介](https://pan.baidu.com/s/1Eh86rew4VHbickXOhkGUGQ)；
+* [系统模块的搭建过程]；
 * 加入第一个业务模块；
 * 加入第二个业务模块；
 * 业务系统工作流的使用;
