@@ -47,6 +47,7 @@
 * [系统所有菜单功能简介](https://v.youku.com/v_show/id_XMzg2MzU0NzMyMA==.html?spm=a2hzp.8253876.0.0&f=51517157)　[网盘下载](https://pan.baidu.com/s/1wNqD4tgZlV-174MBxckS7A)；
 * [系统模块界面及基本功能简介](https://v.youku.com/v_show/id_XMzg2MzU1MTIwNA==.html?spm=a2h0j.11185381.listitem_page1.5!5~A&&f=51517157)　[网盘下载](https://pan.baidu.com/s/1Eh86rew4VHbickXOhkGUGQ)；
 * [系统内部配置表结构图说明](https://v.youku.com/v_show/id_XMzg2MzU1NzMwNA==.html?spm=a2h0j.11185381.listitem_page1.5!6~A&&f=51517157)　[网盘下载](https://pan.baidu.com/s/1fc_EX5OqZsox4CsApNOVnw)；
+* [实体对象和字段及关联关系](http://v.youku.com/v_show/id_XMzg2NDI3NTQyMA==.html?f=51517157)　[网盘下载](https://pan.baidu.com/s/1qumypRjiLgPiiCI2bS9ToA)；
 * [系统模块的搭建过程]；
 * 加入第一个业务模块；
 * 加入第二个业务模块；
