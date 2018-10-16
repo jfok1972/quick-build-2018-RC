@@ -28,27 +28,27 @@
 * maven安装好依赖的jar包后，将项目发布到tomcat后启动服务器。
 * 打开浏览器输入网址:`localhost:8080/quick-build`运行程序。
 * 系统中已建有一个超级管理员(administrator,主要用来进行系统架构)和一个系统管理员(admin,主要用来进行业务系统的相关设置)(初始密码均为:admin,其他用户和新建用户的初始密码均为：123456)。
-* 当前版本中的快速构建部分为全开源的系统；商业数据分析(BI)为试用版，前台开源但后台不提供源码，并且不能用于生产环境。
+* 当前版本中的快速构建部分为全开源的系统(遵循GPL3.0协议)；商业数据分析(BI)也集成在本系统内，前台开源但后台不提供源码，并且不能用于生产环境。
 
 ### 系统架构与开发资料
 
-[系统下载安装及运行视频讲解](http://www.jhopesoft.com);<br/>
+[系统的获得安装与运行视频讲解](https://v.youku.com/v_show/id_XMzg2MzUzMDQwNA==.html?spm=a2h0j.11185381.listitem_page1.5~A&&f=51517157)　[网盘下载](https://pan.baidu.com/s/1NbQnU3oqyYXuPIeza_MCdQ);<br/>
 [快速构建系统开发手册(PDF)](http://www.jhopesoft.com/快速构建系统开发手册.pdf)；<br/>
 [快速开发系统extjs4版开发博客专栏](https://blog.csdn.net/column/details/jfok1972-design.html);<br/>
 [快速开发系统extjs5版开发博客专栏](https://blog.csdn.net/column/details/extjs5.html);<br/>
 [快速开发系统extjs6版(当前版本)开发博客专栏](https://blog.csdn.net/column/details/cfcmms.html);
 
+为了更直观的展示系统开发的速度，特录制了一个20分钟快速搭建某小型业务系统的商业数据分析(BI)的视频，建立数据分析并把查询结果显示在首页上。<br/>
+[20分钟快速塔建业务系统的商业数据分析(BI)视频教程](https://v.youku.com/v_show/id_XMzg2MzUzOTg0NA==.html?spm=a2hzp.8253876.0.0&f=51517157)　[网盘下载](https://pan.baidu.com/s/1abcc3tLzxTvwJHIcv19Y5w)
 
 ### 系统基本功能、业务系统架构以及商业数据分析开发视频教程(不断更新中)
 
-* 系统概述；
-
-* 系统的界面及基本功能；
-
-> 登录<br/>
-> 主界面的布局<br/>
-> 菜单<br/>
-
+* [系统概述及主页面的说明](https://v.youku.com/v_show/id_XMzg2MzU0MzczMg==.html?spm=a2hzp.8253876.0.0&f=51517157)　[网盘下载](https://pan.baidu.com/s/1cjTlvmTRs92QYgEeSH_pjA)；
+* [系统所有菜单功能简介](https://v.youku.com/v_show/id_XMzg2MzU0NzMyMA==.html?spm=a2hzp.8253876.0.0&f=51517157)　[网盘下载](https://pan.baidu.com/s/1wNqD4tgZlV-174MBxckS7A)；
+* [系统模块界面及基本功能简介](https://v.youku.com/v_show/id_XMzg2MzU1MTIwNA==.html?spm=a2h0j.11185381.listitem_page1.5!5~A&&f=51517157)　[网盘下载](https://pan.baidu.com/s/1Eh86rew4VHbickXOhkGUGQ)；
+* [系统内部配置表结构图说明](https://v.youku.com/v_show/id_XMzg2MzU1NzMwNA==.html?spm=a2h0j.11185381.listitem_page1.5!6~A&&f=51517157)　[网盘下载](https://pan.baidu.com/s/1fc_EX5OqZsox4CsApNOVnw)；
+* [实体对象和字段及关联关系](http://v.youku.com/v_show/id_XMzg2NDI3NTQyMA==.html?f=51517157)　[网盘下载](https://pan.baidu.com/s/1qumypRjiLgPiiCI2bS9ToA)；
+* [系统模块的搭建过程]；
 * 加入第一个业务模块；
 * 加入第二个业务模块；
 * 业务系统工作流的使用;
