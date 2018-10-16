@@ -32,6 +32,7 @@ Ext.define('app.utils.ProjectUtils', {
       window.open(url, 'fullscreen=0,menubar=0,toolbar=0,location=0,scrollbars=0,resizable=0,status=1,left=' + iLeft
           + ',top=' + iTop + ',width=' + width + ',height=' + height);
       if (Ext.isFunction(cfg.callback)) cfg.callback();
+      
     },
     /**
      * 系统刷新
