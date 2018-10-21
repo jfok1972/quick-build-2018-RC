@@ -51,7 +51,7 @@
 * [业务系统第一个模块的导入](http://v.youku.com/v_show/id_XMzg2NzgxNjMxNg==.html)　[网盘下载](https://pan.baidu.com/s/1OnObtdwdSjMJOFG0kDojgA)；
 * [业务系统第一个模块导航筛选导出](http://v.youku.com/v_show/id_XMzg3MDQ4NTEzMg==.html)　[网盘下载](https://pan.baidu.com/s/1_VckK5aXKxC9Eb4ilkcJIA)；
 * [业务模块的附件功能](http://v.youku.com/v_show/id_XMzg3ODM0ODU5Mg==.html)　[网盘下载](https://pan.baidu.com/s/18G38UQqULcU9dRip69GL_A)；
-* 加入第二个业务模块；
+* [导入第二个模块及多对一字段的使用](http://v.youku.com/v_show/id_XMzg3OTc2MjQ1Ng==.html)　[网盘下载](https://pan.baidu.com/s/1Q-lKWS2W2y7a4YmxHE8ADg)；
 * 业务系统工作流的使用;
 * 商业数据分析(BI)的基本功能；
 * 商业数据分析(BI)的进阶功能及图表；
