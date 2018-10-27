@@ -6,6 +6,7 @@ import com.jhopesoft.framework.core.objectquery.filter.UserDefineFilter;
 import com.jhopesoft.framework.core.objectquery.module.BaseModule;
 import com.jhopesoft.framework.core.objectquery.module.ModuleHierarchyGenerate;
 import com.jhopesoft.framework.core.objectquery.module.ParentModule;
+import com.jhopesoft.framework.core.objectquery.sqlfield.SqlFieldUtils;
 import com.jhopesoft.framework.critical.Local;
 import com.jhopesoft.framework.dao.entity.dataobject.FDataobject;
 import com.jhopesoft.framework.dao.entity.dataobject.FDataobjectcondition;
@@ -42,7 +43,7 @@ public class AggregateSqlGenerate implements ParentChildField {
 	private String fieldahead;
 	private String aggregate;
 	private String remark;
-	private List<UserDefineFilter> userDefineFilters; 
+	private List<UserDefineFilter> userDefineFilters;
 
 	private List<String> wheres;
 
@@ -66,14 +67,14 @@ public class AggregateSqlGenerate implements ParentChildField {
 		this.parentBaseModule = parentBaseModule;
 		this.FDataobjectfield = parentChildField.getFDataobjectfield();
 		this.dataobject = this.FDataobjectfield.getFDataobject();
-		this.fieldahead = parentChildField.getFieldahead(); 
+		this.fieldahead = parentChildField.getFieldahead();
 		if (this.fieldahead.indexOf(".with.") > 0) {
-			
+
 			this.fieldahead = this.fieldahead.split(".with.")[1];
 			this.aggregate = parentChildField.getAggregate();
 			this.FDataobjectconditionBySubconditionid = parentChildField.getFDataobjectconditionBySubconditionid();
 		} else {
-			
+
 			this.aggregate = parentChildField.getAggregate();
 			this.FDataobjectconditionBySubconditionid = parentChildField.getFDataobjectconditionBySubconditionid();
 		}
@@ -81,14 +82,14 @@ public class AggregateSqlGenerate implements ParentChildField {
 
 	public AggregateSqlGenerate(BaseModule parentBaseModule, String fieldname) {
 		this.parentBaseModule = parentBaseModule;
-		
+
 		String part[] = fieldname.split("\\|");
 		if (part.length == 2)
 			this.FDataobjectconditionBySubconditionid = Local.getDao().findById(FDataobjectcondition.class, part[1]);
 		part = part[0].split(".with.");
-		this.fieldahead = part[1]; 
+		this.fieldahead = part[1];
 		part = part[0].split(".");
-		this.aggregate = part[0]; 
+		this.aggregate = part[0];
 		dataobject = DataObjectUtils.getDataObject(part[1]);
 		FDataobjectfield = dataobject._getModuleFieldByFieldName(part[2]);
 
@@ -96,17 +97,16 @@ public class AggregateSqlGenerate implements ParentChildField {
 
 	public AggregateSqlGenerate pretreatment() {
 		baseModule = ModuleHierarchyGenerate.genModuleHierarchy(dataobject, "aggregate_", false);
-		
+
 		ParentModule parentModule = baseModule.getAllParents().get(fieldahead);
 		parentModule.setDonotAddUserDataFilter(true);
 
-		
 		if (fieldahead.indexOf('.') != -1) {
 			Object sModule = parentModule.getSonModuleHierarchy();
 			if (sModule instanceof ParentModule)
-				((ParentModule) sModule).setAddToFromByFilter(true); 
+				((ParentModule) sModule).setAddToFromByFilter(true);
 		}
-		
+
 		wheres = WhereGenerate.generateAgreegateWhere(this);
 
 		return this;
@@ -114,7 +114,12 @@ public class AggregateSqlGenerate implements ParentChildField {
 
 	public String generateSelect() {
 		StringBuilder sql = new StringBuilder(" (((((((((( select ");
-		sql.append(aggregate + "(aggregate_." + FDataobjectfield._getSelectName(null) + ") " + CR);
+
+		String fieldStr = "aggregate_." + FDataobjectfield._getSelectName(null);
+		if (FDataobjectfield._isAdditionField()) {
+			fieldStr = SqlFieldUtils.generateUserDefineField(baseModule, null, FDataobjectfield, false);
+		}
+		sql.append(aggregate + "(" + fieldStr + ") " + CR);
 
 		sql.append(TAB + TAB + " from " + CR);
 		for (String from : FromGenerate.generateFrom(null, baseModule, false)) {
