@@ -58,6 +58,7 @@
 * [业务数据的导入及订单的基本操作](http://v.youku.com/v_show/id_XMzg4NzI4ODkyNA==.html)　[(网盘下载)](https://pan.baidu.com/s/1sAyuZSG1DuaC2fLsCnPfww)；
 * [实体对象附加字段的创建和用法](http://v.youku.com/v_show/id_XMzg4OTA1OTQ5Mg==.html)　[(网盘下载)](https://pan.baidu.com/s/1sgXfQYfrmH48ZOcW8FOZpQ)；
 * [复杂的附加字段和sql语句的生成](http://v.youku.com/v_show/id_XMzg5MDY5MjY2MA==.html)　[(网盘下载)](https://pan.baidu.com/s/1ETawoxuVMapEJElAWSPCvA)；
+* [模块视图方案的用法](http://v.youku.com/v_show/id_XMzg5MzgzODU1Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1d6tnCucZcWZgfERd7Fn7FQ)；
 * 业务系统工作流的使用;
 * 商业数据分析(BI)的基本功能；
 * 商业数据分析(BI)的进阶功能及图表；
