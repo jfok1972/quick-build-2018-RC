@@ -60,6 +60,7 @@
 * [复杂的附加字段和sql语句的生成](http://v.youku.com/v_show/id_XMzg5MDY5MjY2MA==.html)　[(网盘下载)](https://pan.baidu.com/s/1ETawoxuVMapEJElAWSPCvA)；
 * [模块视图方案的用法](http://v.youku.com/v_show/id_XMzg5MzgzODU1Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1d6tnCucZcWZgfERd7Fn7FQ)；
 * [数据权限的用法和说明(核心功能)](http://v.youku.com/v_show/id_XMzg5Njk2OTUwNA==.html)　[(网盘下载)](https://pan.baidu.com/s/1ikQo5-q3stOcE6KpYGBknA)；
+* [可选数据权限的用法和说明(核心功能)](http://v.youku.com/v_show/id_XMzg5ODgzMjM5Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1Wz5D79Du0Bsh408QtP0Pvg)；
 * 业务系统工作流的使用;
 * 商业数据分析(BI)的基本功能；
 * 商业数据分析(BI)的进阶功能及图表；
