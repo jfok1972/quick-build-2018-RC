@@ -3,6 +3,7 @@ package com.jhopesoft.platform.service;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -141,8 +142,14 @@ public class WorkFlowDesignService {
 			matcherthis.appendReplacement(resultBuffer, changeRoleCodeOrNameToId(sub));
 		}
 		matcherthis.appendTail(resultBuffer);
-		String result = resultBuffer.toString();		
-		return new ByteArrayInputStream(result.getBytes());
+		String result = resultBuffer.toString();
+		try {
+			// 要转换成 UTF-8的字符串，否则在windows的服务器上会出来异常错误
+			return new ByteArrayInputStream(result.getBytes("UTF-8"));
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 	private String changeUserCodeOrNameToId(String s) {
@@ -222,10 +229,12 @@ public class WorkFlowDesignService {
 		saveField(object, "actEndTime", "act_procinst.END_TIME_", "DateTime", 0, "流程结束时间", orderno++, null);
 		saveField(object, "actEndActName", "act_procinst.END_ACT_NAME_", "String", 64, "流程结束名称", orderno++, null);
 		saveField(object, "actProcInstState", "act_procinst.SUSPENSION_STATE_", "String", 1, "活动状态", orderno++, null);
-		
-		saveField(object, "actCurrentAssignName", "act_procinst.CURRENT_ASSIGN_NAME_", "String", 200, "等待审核人员", orderno++, null);
-		saveField(object, "actCurrentCandidateName", "act_procinst.CURRENT_CANDIDATE_NAME_", "String", 200, "等待接受人员", orderno++, null);
-		
+
+		saveField(object, "actCurrentAssignName", "act_procinst.CURRENT_ASSIGN_NAME_", "String", 200, "等待审核人员", orderno++,
+				null);
+		saveField(object, "actCurrentCandidateName", "act_procinst.CURRENT_CANDIDATE_NAME_", "String", 200, "等待接受人员",
+				orderno++, null);
+
 		saveField(object, "actExecuteTaskId", "act_task.ID_", "String", 64, "用户可审批任务id", orderno++, null);
 		saveField(object, "actTaskDefKey", "act_task.TASK_DEF_KEY_", "String", 64, "任务定义id", orderno++, null);
 		saveField(object, "actExecuteTaskName", "act_task.NAME_", "String", 255, "当前用户可审批的节点名称", orderno++, null);
