@@ -122,7 +122,12 @@ public class WorkFlowDesignService {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		String str = new String(bytes);
+		String str = null;
+		try {
+			str = new String(bytes, "UTF-8");
+		} catch (UnsupportedEncodingException e1) {
+			e1.printStackTrace();
+		}
 		StringBuffer resultBuffer = new StringBuffer();
 		String s = "activiti:(assignee|candidateUsers)=\"(.*?)\"";
 		Pattern patternthis = Pattern.compile(s);
