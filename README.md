@@ -63,7 +63,9 @@
 * [可选数据权限的用法和说明(核心功能)](http://v.youku.com/v_show/id_XMzg5ODgzMjM5Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1Wz5D79Du0Bsh408QtP0Pvg)；
 * [模块图表和自定义排序功能](http://v.youku.com/v_show/id_XMzkwNTMzODUyOA==.html)　[(网盘下载)](https://pan.baidu.com/s/1I7HTCCeLzPxZ3ew73LUATw)；
 * [业务系统加入工作流](http://v.youku.com/v_show/id_XMzkxNzgyOTI3Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1pJWj_TlMkkWi9WZ2FVNrvQ)；
-* 商业数据分析(BI)的基本功能；
+
+### 商业数据分析(BI)的使用(此功能为本系统的最终目标。不断更新中)
+* [商业智能分析(BI)的使用(1)(选择分析字段、行展开、列展开、分析方案、字段列行的方案的初步介绍)](http://v.youku.com/v_show/id_XMzkxOTI3NzUxNg==.html)　[(网盘下载)](https://pan.baidu.com/s/1ZbUSEPqYfcF7O7R5UaOBMQ)；
 * 商业数据分析(BI)的进阶功能及图表；
 
 ### 系统源码分析和开发视频
