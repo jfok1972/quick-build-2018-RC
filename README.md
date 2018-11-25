@@ -67,7 +67,7 @@
 ### 商业数据分析(BI)的使用(此功能为本系统的最终目标。不断更新中)
 * [商业智能分析(BI)的使用(1)选择分析字段、行展开、列展开、分析方案、字段列行的方案的初步介绍](http://v.youku.com/v_show/id_XMzkxOTI3NzUxNg==.html)　[(网盘下载)](https://pan.baidu.com/s/1P8YcL0Eh_RpGWwszOmHmGQ)；
 * [商业智能分析(BI)的使用(2)聚合字段的设置](http://v.youku.com/v_show/id_XMzkxOTM3MDI5Ng==.html)　[(网盘下载)](https://pan.baidu.com/s/1j2XHVBJjpes0QOVslh_NFg)；
-* [商业智能分析(BI)的使用(2)可分组字段或表达式的设置](http://v.youku.com/v_show/id_XMzkzNTgxMTYyNA==.html)　[(网盘下载)](https://pan.baidu.com/s/1rszDyRuOx3__FXU5eIVxZw)；
+* [商业智能分析(BI)的使用(3)可分组字段或表达式的设置](http://v.youku.com/v_show/id_XMzkzNTgxMTYyNA==.html)　[(网盘下载)](https://pan.baidu.com/s/1rszDyRuOx3__FXU5eIVxZw)；
 * 商业数据分析(BI)的进阶功能及图表；
 
 ### 系统源码分析和开发视频
