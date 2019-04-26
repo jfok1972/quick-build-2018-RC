@@ -61,7 +61,7 @@ Ext.apply(Ext.util.Format, {
   // 数据字典
   DictionaryRenderer : function(val, metaData, model, row, col, store, gridview) {
     var column = gridview.ownerCt.columnManager.getHeaderAtIndex(col);
-    return model.get(column.dataIndex + '_dictname');
+    if (column) return model.get(column.dataIndex + '_dictname');
   },
   // 金额字段
   monetaryRenderer : function(val, metaData, model, row, col, store, gridview) {
