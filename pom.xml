@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.7</jdk.version>
 		<org.hibernate-version>5.2.3.Final</org.hibernate-version>
-		<org.springframework-version>4.3.23.RELEASE</org.springframework-version>
+		<org.springframework-version>5.3.18</org.springframework-version>
 		<org.slf4j-version>1.7.21</org.slf4j-version>
 		<activiti-version>5.22.0</activiti-version>
 		<drools.version>7.7.0.Final</drools.version>
